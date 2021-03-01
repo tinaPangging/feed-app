@@ -14,12 +14,13 @@ function Dogs({ dogs }) {
       }}
     >
       <Container maxWidth="sm">
-        {Object.keys(dogs).map(dog => (
+        {Object.keys(dogs).map((dog, index) => (
           <Link
             href={{
               pathname: "/dogs/[breed]",
               query: { breed: dog }
             }}
+            key={'dog_1'+index}
           >
             <Paper>
               <Card
@@ -34,7 +35,7 @@ function Dogs({ dogs }) {
                   }
                 }}
               >
-                <Box display="flex" justifyContent="center">
+                <Box display="flex" justifyContent="center" >
                   <Box p={4} style={{ fontSize: 20 }}>
                     {dog}
                   </Box>
