@@ -12,10 +12,10 @@ This application provides a list of dogs' breed. It shows the picture of the par
 ### Technologies
 Project is created with:
 * [Next.js](https://nextjs.org/) 
-* [Material-UI] (https://material-ui.com/)
+* [Material-UI](https://material-ui.com/)
 	
 ### Setup
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`] (https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 To run this project, first install material-ui using npm:
 ```
