@@ -7,7 +7,7 @@
 * [Setup](#setup)
 
 ### General info
-This application provides a list of dogs' breed. It shows the picture of the particular breed when the card is clicked. Random pictures are displayed if the page is refreshed. 
+This application provides a list of dogs' breed. It shows the picture of a particular breed when a card is clicked. Random pictures are displayed if the page is refreshed. 
 	
 ### Technologies
 Project is created with:
